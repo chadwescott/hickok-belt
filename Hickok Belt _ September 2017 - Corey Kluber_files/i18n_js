@@ -1,0 +1,141 @@
+
+var ccmi18n = { 
+	
+	error: "Error",
+	deleteBlock: "Delete",
+	deleteBlockMsg: "The block has been removed successfully.",
+	addBlock: "Add Block",
+	addBlockNew: "Add Block",
+	addBlockPaste: "Paste from Scrapbook",
+	changeAreaCSS: "Design",
+	editAreaLayout: "Edit Layout",
+	addAreaLayout: "Add Layout",
+	moveLayoutUp: "Move Up",
+	moveLayoutDown: "Move Down",
+	moveLayoutAtBoundary: "This layout section can not be moved further in this direction.", 
+	lockAreaLayout: "Lock Layout", 
+	unlockAreaLayout: "Unlock Layout", 
+	deleteLayout: "Delete",
+	deleteLayoutOptsTitle: "Delete Layout", 
+	confirmLayoutPresetDelete: "Are you sure you want to delete this layout preset?",
+	setAreaPermissions: "Set Permissions",
+	addBlockMsg: "The block has been added successfully.",
+	updateBlock: "Update Block",
+	updateBlockMsg: "The block has been saved successfully.",
+	closeWindow: "Close",
+	editBlock: "Edit",
+	compareVersions: "Compare Versions",
+	blockAreaMenu: "Add Block",
+	arrangeBlock: "Move",
+	arrangeBlockMsg: "Blocks arranged successfully.",
+	copyBlockToScrapbook: "Copy to Scrapbook",
+	changeBlockTemplate: "Custom Template",
+	changeBlockCSS: "Design",
+	errorCustomStylePresetNoName: "You must give your custom style preset a name.",
+	changeBlockBaseStyle: "Set Block Styles",
+	confirmCssReset: "Are you sure you want to remove all of these custom styles?",
+	confirmCssPresetDelete: "Are you sure you want to delete this custom style preset?",
+	setBlockPermissions: "Set Permissions",
+	setBlockAlias: "Setup on Child Pages",
+	setBlockComposerSettings: "Composer Settings",
+	clear: "Clear",
+	helpPopup: "Help",
+	community: "concrete5 Community",
+	noIE6: "Concrete5 does not support Internet Explorer 6 in edit mode.",
+	helpPopupLoginMsg: "Get more help on your question by posting it to the concrete5 help center on concrete5.org",
+	marketplaceErrorMsg: "<p>You package could not be installed.  An unknown error occured.</p>",
+	marketplaceInstallMsg: "<p>Your package will now be downloaded and installed.</p>",
+	marketplaceLoadingMsg: "<p>Retrieving information from the Concrete5 Marketplace.</p>",
+	marketplaceLoginMsg: "<p>You must be logged into the concrete5 Marketplace to install add-ons and themes.  Please log in.</p>",
+	marketplaceLoginSuccessMsg: "<p>You have successfully logged into the concrete5 Marketplace.</p>",
+	marketplaceLogoutSuccessMsg: "<p>You are now logged out of concrete5 Marketplace.</p>",
+	deleteAttributeValue: "Are you sure you want to remove this value?",
+	customizeSearch: "Customize Search",
+	properties: "Properties",
+	savePropertiesMsg: "Page Properties saved.",
+	ok: "Ok",
+	x: "x"
+}
+
+var ccmi18n_sitemap = {
+
+	visitExternalLink: "Visit",
+	editExternalLink: "Edit External Link",
+	deleteExternalLink: "Delete",
+	addExternalLink: "Add External Link",
+	sendToTop: "Send To Top",
+	sendToBottom: "Send To Bottom",
+	
+	visitPage: "Visit",
+	pageProperties: "Properties",
+	setPagePermissions: "Set Permissions",
+	setPagePermissionsMsg: "Page permissions updated successfully.",
+	pageDesignMsg: "Theme and page type updated successfully.",
+	pageDesign: "Design",
+	pageVersions: "Versions",
+	deletePage: "Delete",
+	deletePageSuccessMsg: "The page has been removed successfully.",
+	addPage: "Add Page",
+	moveCopyPage: "Move/Copy",
+	reorderPage: "Change Page Order",
+	reorderPageMessage: "Move or reorder pages by dragging their icons.",
+	moveCopyPageMessage: "Choose a new parent page from the sitemap.",
+	editInComposer: "Edit in Composer",
+	
+	searchPages: "Search Pages",
+	explorePages: "Flat View",
+	backToSitemap: "Back to Sitemap",
+	searchResults: "Search Results",
+	createdBy: "Created By",
+	
+	viewing: "Viewing",
+	results: "Result(s)",
+	max: "max",
+	noResults: "No results found.",
+	areYouSure: "Are you sure?",
+	loadError: "Unable to load sitemap data. Response received: ",
+	loadErrorTitle: "Unable to load sitemap data.",
+	on: "on"	
+	
+}
+
+var ccmi18n_spellchecker = {
+
+	resumeEditing: "Resume Editing",
+	noSuggestions: "No Suggestions"
+	
+}
+
+var ccmi18n_filemanager = {
+	
+	view: "View",
+	download: "Download",
+	select: "Choose",
+	duplicateFile: "Copy File",
+	clear: "Clear",
+	edit: "Edit",
+	replace: "Replace",
+	duplicate: "Copy",
+	chooseNew: "Choose New File",
+	sets: "Sets",
+	permissions: "Access & Permissions",
+	properties: "Properties",
+	deleteFile: "Delete",
+	title: "File Manager",
+	uploadErrorChooseFile: "You must choose a file.",
+	rescan: "Rescan",
+	pending: "Pending",
+	uploadComplete: "Upload Complete",
+	
+	PTYPE_CUSTOM: "7",
+	PTYPE_NONE: "0",
+	PTYPE_ALL: "10",
+
+	FTYPE_IMAGE: "1",	
+	FTYPE_VIDEO: "2",	
+	FTYPE_TEXT: "3",	
+	FTYPE_AUDIO: "4",	
+	FTYPE_DOCUMENT: "5",	
+	FTYPE_APPLICATION: "6"
+	
+}

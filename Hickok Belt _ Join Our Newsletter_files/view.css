@@ -1,0 +1,40 @@
+.mailchimp-groupselect {
+	clear:both;
+	margin-top:10px;
+}
+.mailchimp-checkbox {
+	float:left;
+	margin-left:20px;
+	clear:both;
+}
+.mailchimp-checkbox input {
+	width:20px;
+}
+.mailchimp-radio {
+	float:left;
+	margin-left:20px;
+	clear:both;
+}
+.mailchimp-radio input {
+	width:20px;
+}
+.mailchimp-select {
+	float:left;	
+	margin-left:20px;
+	clear:both;
+}
+.mailchimp-list {
+	clear:both;
+}
+.mailchimp-register {
+	float:left;
+}
+#mailchimpwaiting {
+	float:left;padding-left:5px;margin-top:3px;display:none;
+}
+.mailchimp input {
+	width:10px;
+}
+.mailchimp-endblock {
+	clear:both;
+}
