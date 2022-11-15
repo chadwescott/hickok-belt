@@ -1,0 +1,292 @@
+/*
+jQuizMe 2.1 - 12/15/09 Programmed and CopyWrited by Larry Battle 2008 - 2009 
+*/	
+body, html{ background-color:transparent;}
+		#quizArea{
+			background:url(http://hickokbelt.com/themes/hickokbelt/images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 25px;
+			width:760px;
+			margin:20px auto 50px;
+		}
+		
+			.quiz-el{
+				position: relative;
+				width:750px;
+				height:300px;
+			}
+				.quiz-el div{
+					/*padding: 0.2em;*/
+				}
+				.quiz-el input{
+				}
+			/* .q-innerArea = .q-header, .q-help, .q-prob, .q-intro, .q-gameOver */
+			.q-innerArea{
+				position:relative;
+				clear: both;
+			}
+			.q-header{
+			}
+			.q-help, .q-review-menu {
+				display:none;
+			}
+			.q-intro{
+				display:none;
+			}
+			.q-title{
+				display:none;
+			}
+			.q-check-btn{
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px #CE9F2B solid;
+				cursor:pointer;
+				background:#CE9F2B;
+				color:#000;
+				padding:5px;
+				text-align:center;
+			}
+				.q-check-btn:hover{
+					color:#fff;
+					opacity:.8;
+					filter:alpha(opacity=80);
+				}
+			input[disabled]{
+				background:#D8D8D8;
+				border: 1px #D8D8D8 solid;
+				color:#EBEBEB;
+				cursor:default;
+			}
+				input[disabled]:hover{
+					opacity:1;
+					filter:alpha(opacity=100);
+					color:#EBEBEB;
+				}
+			/*This is a hack, because IE fails on float:right.*/
+			.q-counter{
+				position: absolute;
+				top: 38px;
+				right: 6px;
+				margin: 1%;
+				padding: 0%;
+				z-index:5;
+			}
+			.q-counter{
+				float: right;
+			}
+			.q-help{
+				position: relative;
+				clear:both;
+			}
+			/*.q-probArea = .q-ques, .q-ansSel, .q-result */
+			.q-prob{
+				margin:0px 0 0 0;
+			}
+			.q-probArea{
+				font-size: 1.2em;
+				position: relative;
+			}
+				.q-ques{
+					background:url(http://hickokbelt.com/themes/hickokbelt/images/quiz/question-bg.png) no-repeat left top;
+					float:left;
+					width:410px;
+					padding:5px 25px 5px 55px;
+					min-height:33px;
+					margin-top:30px;
+				}
+				
+				.q-ans{
+					float:right;
+					width:220px;
+				}
+					.q-ansSel{
+					padding:22px 20px;
+					background:#f8f8f8;
+					margin:30px 0;
+					}
+					
+				.q-result{
+					float:left;
+					width:410px;
+					padding:5px 25px 5px 55px;
+					margin-top:20px;
+				}
+				
+					.wrong-answer-title, .correct-answer{
+						font-family: 'QuicksandBook', sans-serif;
+						font-size:37px;
+						color:#CE9F2B;
+						text-transform:uppercase;
+					}
+					
+					.answer-shouldbe{
+						font-size:14px;
+						padding: 0px 0 8px 0;
+						color:#CE9F2B;
+						font-style:italic;
+					}
+					
+				.q-gameOver{
+					clear:both;
+					margin:1px 0 0 0;
+				}
+				
+			.q-stat{
+			}
+			.q-help-menu{
+				width: 97%;
+			}
+			.q-help-info{
+				clear:both;
+			}
+			.q-quit-area, .q-review-arrows{
+				display: inline;
+				width: auto;
+			}
+			.q-quit-area{
+				float: right;
+			}
+			.q-review-arrows{
+				position: relative;	/*IE hack.*/
+				width: 2.3em;
+			}
+			.q-center{
+				text-align: center;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.q-gameOver .q-statTotal{
+				font-family: 'QuicksandBook', sans-serif;
+				font-size:43px;
+				width:760px;
+				padding-top:25px;
+				margin:0 auto;
+				text-transform:uppercase;
+			}
+				.q-statTotal .score-title, .q-statTotal .status-title{
+					color:#CE9F2B;
+					float:left;
+					width:200px;
+					padding:10px 0;
+				}
+				.q-statTotal .statNumber, .q-statTotal .status{
+					color:#CE9F2B;
+					float:left;
+					width:500px;
+					text-align:center;
+					background:#f8f8f8;
+					color:#999;
+					padding:10px 30px;
+					margin:0 0 10px 0;
+				}
+				
+				.q-statTotal .status{
+					font-size:39px;
+				}
+				
+			.statDetails{
+				margin-top:20px;
+			}
+				.amount-right{
+					margin:15px 0 0 0px;
+					font-size:14px;
+					text-align:center;
+				}
+				
+				.twitter-share{
+					float:left;
+					width:60px;
+					height:59px;
+					text-indent: -100000px;
+					margin:6px 10px 0 300px;
+				}
+				
+					.twitter-share a{
+						background:url(http://hickokbelt.com/themes/hickokbelt/images/quiz/twitter.png) no-repeat ;
+						width:100%;
+						height:100%;
+						display:block;
+					}
+				
+					.twitter-share a:hover, .facebook-share a:hover{
+						opacity:.7;
+						filter:alpha(opacity=70);
+					}
+				
+				.facebook-share{
+					float:left;
+					width:60px;
+					height:59px;
+					text-indent: -10000px;
+					margin:6px 10px 0 0px;
+				}
+				
+					.facebook-share a{
+						background:url(http://hickokbelt.com/themes/hickokbelt/images/quiz/facebook.png) no-repeat ;
+						width:100%;
+						height:100%;
+						display:block;
+					}
+				
+			.q-quesInput{
+				width: 95%;
+			}
+			.q-ol{
+				list-style-type: upper-alpha;
+				list-style-position: inside;
+				padding: 0;
+				margin: 3px 0 0 0;
+			}
+			.q-ol-li{
+				margin: 0 auto;
+				cursor:pointer;
+				padding:4px 3px;
+				font-size:18px;
+			}
+			
+				.q-radioBtn{
+					position:absolute;
+					left:-100000px;
+				}
+				
+			.q-ol-hover{
+				background: #CE9F2B;
+				opacity:.6;
+				filter:alpha(opacity=60);
+			}
+			.q-ol-active{
+				background: #CE9F2B;
+				color: #fff;
+			}
+			/*IE displays the wrong width for <select> tags.*/
+			.q-select{
+				width : 80%;
+			}
+			.q-select{
+				font-size: 0.8em;
+				width: 100%;
+			}
+			.q-timer-area{
+				display:block;
+				text-align:center;
+				width: auto;
+			}
+			.q-review-menu{
+				text-align: center;
+				width: auto;
+			}
+			.q-reviewBar-btns{
+				position: relative;
+				display: inline-block;
+				width: 49%;
+			}
+			.q-rightArrow{
+				float:right;
+			}
+			.q-leftArrow{
+				float:left;
+			}
+			.q-timer-area{
+				line-height: 0;
+				height:0;
+			}

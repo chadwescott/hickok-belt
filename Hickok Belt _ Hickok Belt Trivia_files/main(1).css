@@ -1,0 +1,1240 @@
+*{margin:0;padding:0;}
+.clear, .spacer{clear:both; margin:0; padding:0;}
+img{border:none;}
+img.nohover {border:0}
+img.hover {border:0;display:none}
+a:hover img.hover {display:inline}
+a:hover img.nohover {display:none}
+
+html, body {
+	margin:0;
+	padding:0;
+}
+body{
+	text-align:left;
+	color:#000;
+	background:#000;
+	font-family:'AllerRegular', sans-serif;
+}
+
+#container{
+	margin: 0 auto;
+	width:950px;
+	padding:10px 0 0 0;
+	background:url(images/bg/belt-bg.jpg) center top no-repeat #000;
+	background-position:0px 103px;
+	position:relative;
+}
+
+	#header{
+		margin:0;
+	}
+		
+		#social-nav{
+			width:203px;
+			padding:0;
+			margin:0;
+			float:right;
+		}
+
+			#social-nav li{
+				padding:0;
+				margin:0 2px;
+				background:url(images/bg/social.png) no-repeat;
+				height:20px;
+				float:left;
+				text-indent: -100000px;
+			}
+			
+					#social-nav li a.social-link{
+						display:block;
+						height:100%;
+						width:100%;
+					}
+	
+				#social-nav li:hover{ opacity:0.7; filter:alpha(opacity=70);}
+				
+				#social-nav li.newsletter{width:131px; background-position:0 0; margin-left:0;}
+				#social-nav li.youtube{width:20px; background-position:-137px 0;}
+				#social-nav li.twitter{width:20px; background-position:-159px 0;}
+				#social-nav li.facebook{width:20px; background-position:-181px 0; margin-right:0;}
+		
+		#nav{
+			margin:15px auto 50px;
+			padding:10px 0 10px 0;
+			font-family:'AllerRegular', sans-serif;
+			font-size:13px;
+			text-transform:uppercase;
+			background:url(images/bg/nav-bg.png) no-repeat;
+			background-color:transparent;
+			z-index:4;
+		}
+
+			#nav li{
+				list-style:none;
+				float:left;
+				position:relative;
+				margin:10px 12px 0;
+				background-color:transparent;
+				z-index:6;
+			}
+	
+				#nav li a{
+				}
+					
+			#nav li:hover, #nav li:hover a{
+				background:#b31313;
+			}
+				#nav #logo{
+					width:90px;
+					height:37px;
+					text-indent: -100000px;
+					padding:0;
+					margin:0 0 0 75px;
+					background:url(images/logo.png) no-repeat center top;
+				}
+				
+					#logo h1{
+						margin:0;
+					}
+				
+						#logo-link {
+							width: 90px;
+							height: 37px;
+							margin: 0;
+							padding: 0;
+							display: block;
+						}
+			
+						#nav #logo-link:hover {background-color:transparent;}
+			
+				#nav a{color:#fff; padding:8px; background-color:transparent;}
+				#nav a:hover{ background:#b31313; text-decoration:none;}
+				#nav a.products:hover{ background:none; text-decoration:none; cursor:text;}
+				#nav a.selected{}
+			
+				#nav li.first-nav-item{margin-left:36px;}
+				#nav li.last-nav-item{margin-right:0;}
+			
+					#nav ul{
+						list-style-type:none;
+						text-align: left;
+						position: absolute;
+						left: -100000px;
+						z-index: -5;
+						background:url(images/bg/nav.gif) no-repeat;
+						background-color:transparent;
+						min-height:142px;
+						padding-top:45px;
+					}
+					
+					#nav li:hover ul{
+						left: 1px;
+						top:-15px;
+						z-index: -3;
+					}
+					
+					#nav li.about ul{
+						width:185px;
+						padding-right:97px;
+						background-position:174px 35px;
+					}
+					#nav li.history ul{
+						width:194px;
+						padding-right:97px;
+						background-position:-120px 30px;
+					}
+					#nav li.past-winners ul{
+						width:194px;
+						padding-right:97px;
+						background-position:-420px 34px;
+					}
+					#nav li.awards-ceremony ul{
+						width:131px;
+						padding-right:79px;
+						background-position:-783px 22px;
+					}
+					#nav li.news-and-media ul{
+						width:194px;
+						padding-right:96px;
+						background-position:-1020px 16px;
+					}
+					#nav li.sponsors ul{
+						width:144px;
+						padding-right:56px;
+						background-position:-1370px 1px;
+					}
+					#nav li.contact ul{
+						width:124px;
+						padding-right:68px;
+						background-position:-1690px 24px;
+					}			
+	
+						#nav ul li{
+							background: #b31313;
+							display: block;
+							margin:0;
+							padding:0;
+							width:100%;
+						}
+						
+							#nav ul a{
+								padding:8px;
+								color: #fff !important;
+								font-size: 11px;
+								background: #b31313;
+								display: block;
+								margin:0;
+								width:100%;
+							}
+							
+							#nav ul a:hover{
+								background: #9f1111;
+							}
+											
+	#main{
+		margin:0;
+		padding:0 6px 15px;
+		min-height:435px;
+	}
+		
+		#main .content.full{
+			width:100%;
+		}		
+		
+		#main .content.home{
+			width:100%;
+			text-align:center;
+			padding-top:20px;
+		}
+		
+				
+/**************** GREY PAGE-TYPE ***************/
+		#container.grey #top{
+		}
+		
+		#container.grey #middle{
+			background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 26px;
+			width:760px;
+			margin:20px auto 50px;
+			font-size:12px;
+			min-height:200px;
+		}
+		
+			#container.grey #middle p{
+				margin-bottom:10px;
+			}
+	
+			#container #middle a{
+				color:#0578D1;
+			}
+	
+
+/**************** HOME ***************/
+	#container.home #main{
+		margin:70px auto 0;
+		width:730px;
+		font-family:"QuicksandBold", sans-serif;
+		letter-spacing:-1pt;
+	}
+		#container.home #top{
+			margin:0;
+			padding:355px 0 0 0;
+		}
+	
+		#container.home #top.athlete-bar-1{ background:url(images/home/homepage-winner-bg1.png) no-repeat center top; }
+		#container.home #top.athlete-bar-2{ background:url(images/home/homepage-winner-bg2.png) no-repeat center top; }
+		#container.home #top.athlete-bar-3{ background:url(images/home/homepage-winner-bg3.png) no-repeat center top; }
+	
+			#container.home #top a{
+				display:block;
+				width:100%;
+				height:100%;
+				color:inherit;
+			}
+		
+			#container.home #top a:hover{
+				text-decoration:none;
+			}
+		
+			#container.home #top .left{
+				float:left;
+				width:260px;
+				text-align:right;
+				overflow:visible;
+			}
+		
+			#container.home #top .right{
+				float:left;
+				width:425px;
+				text-align:center;
+				margin:60px 0 0 0;
+			}
+		
+				#container.home #top .right p{
+					font-family: 'bebas', sans-serif;	
+					color:#e6e9af;
+					text-transform:uppercase;
+					font-size:40px;
+					letter-spacing:1px;	
+				}
+			
+				#container.home #top .right .big{
+					color:#aba92a;
+					font-size:46px;
+				}
+			
+				#container.home #top .right .thin{
+					font-family:"QuicksandBook", sans-serif;	
+					color:#fff;
+					font-weight:300;
+					font-size:38px;
+					letter-spacing:-2px;	
+				}
+			
+		#container.home #bottom{
+		}
+	
+		#container.home #bottom .third{
+			float:left;
+			background-color:#161619;
+		}
+	
+		#container.home #bottom .left{
+			padding:15px 25px;
+			width:130px;
+		}
+	
+		#container.home #bottom .middle{
+			margin:0 10px;
+			width:180px;
+			padding:15px 5px;
+		}
+	
+		#container.home #bottom .right{
+			width:155px;
+			padding:7px 160px 7px 5px;
+			background:url(images/home/slideshow/arnoldPalmer2.jpg) no-repeat right #161619;
+		}
+	
+			#container.home #bottom .left p, #container.home #bottom .middle p, #container.home #bottom .right p{
+				font-size:14px;
+				font-family: 'QuicksandBook';
+				text-transform:uppercase;
+				color:#a8a134;
+				padding:0 11px;
+				font-weight:bold;
+			}
+		
+				#container.home #bottom .left p a, #container.home #bottom .middle p a, #container.home #bottom .right p a{
+					color:#a8a134;
+				}
+		
+
+/**************** HISTORY ***************/
+		#container.history .grey-box{
+			background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 26px;
+			width:760px;
+			margin:20px auto 50px;
+			font-size:12px;
+		}
+
+		#container.history .grey-box p{
+			font-size:inherit;
+			margin-bottom:10px;
+		}
+
+			#container.history .grey-box .left{
+				float:left;
+				width:520px;
+			}
+		
+				#container.history .grey-box .left li{
+					float:left;
+					margin:0 10px 0 0;
+					list-style:none;
+					padding-left:9px;
+					background:url(images/bg/bullet-4px.png) no-repeat;
+					background-position:2px 5px;
+				}
+		
+					#container.history .grey-box .left li a{color:#0578d1;}
+		
+			#container.history .grey-box .right{
+				background:url(images/history/top-right-box.jpg) no-repeat right bottom #f8f8f8;
+				float:right;
+				width:195px;
+				min-height:270px;
+				padding:25px 15px;
+			}
+
+/**************** VOTE PAST WINNERS ***************/
+		#container.vote-past-winners #top{
+		}
+		
+		#container.vote-past-winners #middle{
+			background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 26px;
+			width:760px;
+			margin:20px auto 50px;
+			font-size:12px;
+			min-height:200px;
+		}
+		
+		#container.vote-past-winners ul.social{
+			float:right;
+			width:400px;
+		}
+
+		#container.vote-past-winners .skip-to-year{
+			float:left;
+			width:95px;
+			padding-top:10px;
+		}
+
+			.skip-to-year ul{
+				list-style-type:none;
+				text-align: left;
+				position: absolute;
+				left: -100000px;
+				background-color:transparent;
+				min-height:142px;
+				padding-top:45px;
+				font-family: 'AllerRegular', sans-serif;
+			}
+			
+				.skip-to-year li:hover ul{
+					left: 1px;
+					top: -27px;
+					width:300px;
+					z-index:10;
+				}
+
+					#trigger-year-list{
+						list-style:none;
+						position:relative;
+					}
+						.skip-to-year ul li{
+							background: #e8e8e8;
+							display: block;
+							margin:0;
+							padding:0;
+							width:60px;
+							float:left;
+						}
+						
+							.skip-to-year ul a{
+								padding:8px 12px;
+								font-size: 12px;
+								background: #fff;
+								display: block;
+								margin:0;
+								width:100%;
+							}
+							
+							.skip-to-year ul a:hover{
+							}
+											
+			#container.vote-past-winners #middle p{
+				font-size:inherit;
+				margin-bottom:10px;
+			}
+	
+		#container .poll{
+			padding:15px 20px;
+		}
+
+			.poll-question{
+				font-family: 'QuicksandBook', sans-serif;
+				font-size:48px;
+				color:#ebb50f;
+				text-transform:uppercase;
+			}
+	
+			.generic-message{
+				font-size:20px;
+				margin:10px 0 20px;
+			}
+	
+			.poll form{
+				padding:20px;
+				background:#f5f5f5;
+			}
+
+
+				.poll form .single-question{
+					list-style:none;
+					float:left;
+					padding:5px 10px;
+					width:150px;
+				}
+		
+					.poll form .single-question .nominee{
+						font-size:16px;
+						font-weight:bold;
+						color:#5b5b5b;
+					}
+			
+					.poll form .single-question	ul{
+						margin:5px 0 0 0;
+						clear:both;
+					}
+		
+						.poll form .single-question	ul li{
+							margin:0 0 4px 22px;
+							padding-left:4px;
+							list-style:none;
+							text-indent:-8px;
+						}
+			
+							.poll form .single-question	ul li:before{
+								content:"\2022 \0020 \0020"
+							}
+	
+		#container .show-poll-answer{
+		}
+
+			h3.poll-title{
+				font-family: 'QuicksandBook', sans-serif;
+				font-size:48px;
+				color:#ebb50f;
+			}
+	
+			.poll-thankyou{
+				font-size:20px;
+				margin:10px 0 20px;
+			}
+			
+			#surveyResults{
+				float:left;
+				width:515px;
+				font-size:16px;
+			}
+		
+				#surveyResults .poll-answer{
+					margin:8px 0;
+				}
+			
+					#surveyResults .answer-amount{
+						float:left;
+						width:90px;
+					}
+			
+					#surveyResults .answer-name{
+						float:left;
+						width:200px;
+					}
+			
+						#surveyResults .answer-name ul{
+							display:none;
+						}
+				
+						#surveyResults .answer-name .nominee{
+						}
+
+			.chart{
+				float:right;
+				width:200px;
+			}
+			
+		.share-page li.facebook-share-votepage{
+			float:right;
+			width:90px;
+			list-style:none;
+			overflow:hidden;
+		}
+
+		.share-page li.twitter-share-votepage{
+			float:right;
+			width:55px;
+			list-style:none;
+		}
+
+		#container.vote-past-winners .ccm-next-previous-wrapper a, #container.past-winners .ccm-next-previous-wrapper a{
+			font-size:14px;
+			color:#0578D1;
+		}
+		
+		#container.vote-past-winners .ccm-next-previous-wrapper .ccm-next-previous-parentlink, #container.past-winners .ccm-next-previous-wrapper .ccm-next-previous-parentlink{
+			text-align:center;
+		}
+		
+		
+	/******** Custom Radio Buttons for Voting (http://www.thecssninja.com/css/custom-inputs-using-css) ***********/
+			label + p,
+			input + p
+			{
+				margin-top: 20px;
+			}
+			
+			p > input
+			{
+				padding: 0;
+				margin: 0;
+				height: 16px;
+				width: 16px;
+				float: left;
+				position: absolute;
+				left: 0;
+				opacity: 0;
+			}
+				.ie8 p > input, .ie7 p > input{
+					position: relative;
+				}
+			p > label 
+			{ 
+				float: left; 
+				line-height: 16px; 
+				color: #fff; 
+				padding: 0 0 0 18px;
+				-moz-transition: color 1s ease; 
+				-o-transition: color 1s ease; 
+				-webkit-transition: color 1s ease; 
+				transition: color 1s ease; 
+				margin-bottom:12px;
+				position:relative;
+			}
+			p:not(#foo) > input:hover + label, p:not(#foo) > input:focus + label,
+			p:not(#foo) > input + label:hover, p:not(#foo) > input:focus + label			{ color: #2C7AD0; cursor:pointer; }
+			
+			p:not(#foo) > input + label
+			{
+				background: url(images/vote/gr_custom-inputs.png) 0 -1px no-repeat;
+				height: 20px;
+				margin-bottom:20px;
+			}
+			p:not(#foo) > input[type=radio] + label										{ background-position: 0 -161px; }
+			
+			/* Checked styles */
+			p:not(#foo) > input[type=radio]:checked + label 							{ background-position: 0 -241px; }
+			p:not(#foo) > input[type=checkbox]:checked + label 							{ background-position: 0 -81px; }
+			p:not(#foo) > input[type=checkbox]:hover:checked + label,
+			p:not(#foo) > input[type=checkbox]:focus:checked + label,
+			p:not(#foo) > input[type=checkbox]:checked + label:hover,
+			p:not(#foo) > input[type=checkbox]:focus:checked + label 					{ background-position: 0 -101px; }
+			p:not(#foo) > input[type=radio]:hover:checked + label,
+			p:not(#foo) > input[type=radio]:focus:checked + label,
+			p:not(#foo) > input[type=radio]:checked + label:hover,
+			p:not(#foo) > input[type=radio]:focus:checked + label 						{ background-position: 0 -261px; }
+			
+			/* Hover & Focus styles */
+			p:not(#foo) > input[type=checkbox]:hover + label,
+			p:not(#foo) > input[type=checkbox]:focus + label,
+			p:not(#foo) > input[type=checkbox] + label:hover 							{ background-position: 0 -21px; }
+			p:not(#foo) > input[type=radio]:hover + label,
+			p:not(#foo) > input[type=radio]:focus + label,
+			p:not(#foo) > input[type=radio] + label:hover								{ background-position: 0 -181px; }
+			
+			/* Active styles */
+			p:not(#foo) > input[type=checkbox]:active + label,
+			p:not(#foo) > input[type=checkbox] + label:hover:active						{ background-position: 0 -41px; }
+			p:not(#foo) > input[type=radio]:active + label,
+			p:not(#foo) > input[type=radio] + label:hover:active						{ background-position: 0 -201px; }
+			p:not(#foo) > input[type=checkbox]:active:checked + label,
+			p:not(#foo) > input[type=checkbox]:checked + label:hover:active				{ background-position: 0 -121px; }
+			p:not(#foo) > input[type=radio]:active:checked + label,
+			p:not(#foo) > input[type=radio]:checked + label:hover:active				{ background-position: 0 -281px; }
+			
+			/* Disabled styles */
+			p:not(#foo) > input[type=checkbox]:disabled + label,
+			p:not(#foo) > input[type=checkbox]:hover:disabled + label,
+			p:not(#foo) > input[type=checkbox]:focus:disabled + label,
+			p:not(#foo) > input[type=checkbox]:disabled + label:hover,
+			p:not(#foo) > input[type=checkbox]:disabled + label:hover:active			{ background-position: 0 -61px; }
+			p:not(#foo) > input[type=radio]:disabled + label,
+			p:not(#foo) > input[type=radio]:hover:disabled + label,
+			p:not(#foo) > input[type=radio]:focus:disabled + label,
+			p:not(#foo) > input[type=radio]:disabled + label:hover,
+			p:not(#foo) > input[type=radio]:disabled + label:hover:active				{ background-position: 0 -221px; }
+			p:not(#foo) > input[type=checkbox]:disabled:checked + label,
+			p:not(#foo) > input[type=checkbox]:hover:disabled:checked + label,
+			p:not(#foo) > input[type=checkbox]:focus:disabled:checked + label,
+			p:not(#foo) > input[type=checkbox]:disabled:checked + label:hover,
+			p:not(#foo) > input[type=checkbox]:disabled:checked + label:hover:active	{ background-position: 0 -141px; }
+			p:not(#foo) > input[type=radio]:disabled:checked + label,
+			p:not(#foo) > input[type=radio]:hover:disabled:checked + label,
+			p:not(#foo) > input[type=radio]:focus:disabled:checked + label,
+			p:not(#foo) > input[type=radio]:disabled:checked + label:hover,
+			p:not(#foo) > input[type=radio]:disabled:checked + label:hover:active		{ background-position: 0 -301px; }
+			
+/**************** PAST WINNERS ***************/
+		#container.past-winners #top{
+		}
+		
+		#container.past-winners #winners{
+			background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 26px;
+			width:760px;
+			margin:20px auto 50px;
+			font-size:12px;
+		}
+		
+		#container.past-winners .ccm-next-previous-wrapper{
+			padding:25px 0 0 0;
+		}
+		
+			#winners p{
+				font-size:inherit;
+				margin-bottom:10px;
+			}
+			
+			#winners a{
+				color:#0578D1;
+			}
+	
+			#winners h2.player-title{
+				color:#EBB50F;
+				font-family: 'QuicksandBook', sans-serif;
+			}
+	
+			#winners .athlete{
+				margin:0 0 12px 0;
+			}
+
+				#winners .athlete-pic{
+					float:left;
+					width:130px;
+					margin:0 20px 0 0;
+				}
+	
+					#winners .athlete-pic a:hover img{
+						opacity:0.7;
+						filter:alpha(opacity=70);
+					}
+	
+				#winners .athlete-info{
+					float:right;
+					width:610px;
+					margin:0;
+					padding:20px 0 0 0;
+				}
+	
+					#winners .athlete-info h4.title a{
+						color:#ce9f2b;
+						font-size:16px;
+						margin-bottom:4px;
+						text-transform:capitalize;
+					}
+	
+					#winners .athlete-info li{
+						text-indent:-7px;
+						margin:0 0 2px 24px;
+						font-size:inherit;
+					}
+
+					.athlete-info .bio-video{
+						clear:both;
+						text-align:right;
+					}
+	
+						.athlete-info .bio-video a{color:#000;}
+						.athlete-info .bio-video a:hover{ text-decoration:underline;}
+	
+							.athlete-info .bio-video a .arrows{color:#ce9f2b;}
+							.athlete-info .bio-video .separator{ margin:0 15px;}
+
+			#winners ul.nav{
+				margin:0 auto;
+				padding:20px 0 0 340px;
+			}
+
+				#winners ul.nav li{
+					list-style:none;
+					float:left;
+					width:25px;
+				}
+
+					#winners ul.nav li a{
+						font-size:14px;
+						color:#0578D1;
+					}
+
+	
+/**************** AWARDS CEREMONY ***************/
+
+
+/**************** NEWS AND MEDIA ***************/
+		#container.news-and-media #bottom{
+			width:506px;
+			margin:30px auto 0;
+		}
+
+			#container.news-and-media #bottom .third{
+				background:#e8e8e8;
+				border:solid 1px #c2c2c2;
+				text-align:center;
+				padding:14px 0px;
+			}
+	
+			#container.news-and-media #bottom .third a{
+				color:#B98D26;
+				font-size:14px;
+			}
+	
+				#container.news-and-media .left{
+					width:130px;
+					float:left;
+				}
+		
+				#container.news-and-media .middle{
+					width:170px;
+					float:left;
+					margin:0 15px;
+				}
+		
+				#container.news-and-media .right{
+					width:170px;
+					float:left;
+				}
+		
+/**************** MONTHLY WINNER ***************/
+		#container.page-128 .grunge-bg{
+			margin:-125px 0 15px 0 !important;
+			z-index:10;
+			position:relative;
+		}
+
+			#container .winners-nav{
+				margin:5px 0 0 20px;
+				text-align:left;
+			}
+	
+			#container .winners-nav li{
+				list-style:none;
+				display:inline-block;
+				margin:0 8px;
+			}
+	
+			#container .winners-nav li.year{
+				padding-right: 15px;
+				background:url(images/winners/right-arrow.png) no-repeat right 6px;
+			}
+	
+		#container.parent-128 #nav{
+			margin-bottom:0px;
+		}
+
+		#container.parent-128 #main{
+			padding:0;
+		}
+
+			#container.parent-128 #main .content.left{
+				position:relative;
+				z-index:2;
+				margin-bottom:-25px;
+			}
+	
+				.current-winner{
+					padding-top:40px;
+				}
+		
+				.current-winner .header{
+					width:495px;
+					margin-left:70px;
+				}
+		
+					.current-winner .header h2{
+						text-align:center;
+						font-size:55px;
+						line-height:53px;
+						margin-bottom:30px;
+					}
+			
+			#container.parent-128 #main .content.right{
+				position:relative;
+				z-index:2;
+			}
+	
+				#container.parent-128 #main .content.right .grunge-bg{
+					margin-top:0px;
+				}
+		
+			#winner-stats{
+				position:relative;
+				z-index:2;
+				width:373px;
+				padding:50px 35px 0 215px;
+				margin-left:70px;
+				font-size:13px;
+				min-height:293px;
+			}
+	
+				#winner-stats h3{
+					font-size:15px;
+					font-weight:bold;
+					letter-spacing:0;
+					font-family:'AllerBold', sans-serif;
+				}
+		
+				#winner-stats li{
+					list-style-position:outside;
+					margin:0 0 10px 19px;
+				}
+		
+
+				
+/**************** PRESS-RELEASE ***************/
+		#container.page-84 #middle .nav li{
+			font-size:16px;
+			margin-bottom:4px;
+			text-transform:uppercase;
+			list-style:none;
+		}
+				
+		#container.press-release #top{
+		}
+		
+		#container.press-release #middle{
+			background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+			padding:25px 26px;
+			width:760px;
+			margin:20px auto 50px;
+			font-size:12px;
+			min-height:200px;
+		}
+		
+			#container.press-release #middle .left{
+				float:left;
+				width:170px;
+				margin-right:20px;
+			}
+	
+				#container.press-release #middle .left .nav li{
+					list-style:none;
+					margin-bottom:3px;
+					padding:2px;
+				}
+	
+				#container.press-release #middle .left .nav li:hover{
+					background:#CCC;
+				}
+	
+			#container.press-release #middle .right{
+				width:570px;
+				float:right;
+			}
+	
+			#container.press-release #middle p{
+				margin-bottom:10px;
+			}
+	
+			#container #middle a{
+				color:#0578D1;
+			}
+	
+
+/************************* QUIZ ********************/
+
+/**************** SPONSORS ***************/
+		#container.sponsors #levels{
+			width:815px;
+			margin:0 auto;
+		}
+
+			#container.sponsors .contact-info{
+				width:815px;
+				margin:13px auto 15px;
+				text-align:center;
+				color:#eac248;
+				font-size:27px;
+				font-family: 'QuicksandBook', sans-serif;
+				letter-spacing:-2pt;
+			}
+	
+				#container.sponsors .contact-info p{
+					font:inherit;
+				}
+		
+			#container.sponsors #levels h2{
+				color:#000;
+				margin-bottom:20px;
+			}
+
+				#container.sponsors #levels h2 .strong{
+					font-family:"QuicksandBold", sans-serif;
+				}
+
+			#container.sponsors #levels li{
+				list-style:none;
+				margin-bottom:3px;
+				font-size:14px;
+			}
+	
+				#container.sponsors #levels li:before{
+					content:"\002D \0020 \0020" 
+				}
+			
+			#container.sponsors #levels .white{
+				padding:40px 60px;
+				background:#e8e8e8;
+			}
+	
+			#container.sponsors #levels .grey{
+				padding:40px 60px;
+				background:#d7d8d6;
+			}
+	
+	#container.page-118 .grey{
+		background:#e8e8e8;
+		padding:40px;
+		width:800px;
+		margin:0 auto;
+	}
+	
+		#container.page-118 #sponsors{
+			background:#fff;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			padding:15px;
+		}
+
+			#container.page-118 #sponsors ul li img{
+				vertical-align:middle;
+			}
+	
+			#container.page-118 #featured-sponsors{
+				width: 750px;
+				margin: 0 auto;
+			}
+	
+				#container.page-118 #featured-sponsors .sponsor-logos li{
+					list-style:none;
+					float:left;
+					width:205px;
+					height:150px;
+					line-height:150px;
+					margin:0 45px 20px 0;
+					text-align:center;
+				}
+		
+			#container.page-118 #sponsors .spacer{
+				width:800px;
+				margin:10px auto;
+				background:#e8e8e8;
+				height:7px;
+				clear:both;
+			}
+	
+			#container.page-118 #normal-sponsors{
+				width: 750px;
+				margin: 0 auto;
+				padding: 30px 0 0 0;
+			}			
+
+				#container.page-118 #normal-sponsors .sponsor-logos li{
+					list-style:none;
+					float:left;
+					width:170px;
+					height:125px;
+					line-height:125px;
+					margin:0 17px 10px 0;
+					text-align:center;
+				}
+		
+		
+/**************** NEWSLETTER ***************/
+	#container.page-117 #middle{
+		padding:40px 26px;
+	}
+	
+	#newsletter-copy h2{
+		font-family: 'QuicksandBook', sans-serif;
+		font-size: 38px;
+		color: #EBB50F;
+		text-transform: uppercase;
+	}
+	
+	#newsletter-copy p{
+		font-size: 20px;
+		color: #383838;
+	}
+	
+	.mailchimp-label-name{
+		font-size:16px;
+		font-family:'AllerBold', sans-serif;
+		color:#5b5b5b;
+	}
+	.mailchimp-label-data{
+		margin-bottom:8px;
+	}
+		.mailchimp-label-data input[text]{
+			width:200px;
+		}
+		
+		#mailchimp-register{
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px #CE9F2B solid;
+			cursor:pointer;
+			background:#CE9F2B;
+			color:#000;
+			padding:5px;
+			text-align:center;
+		}
+		#mailchimp-register:hover{
+			color:#fff;
+			opacity:.8;
+			filter:alpha(opacity=80);
+		}
+
+
+/**************** CONTACT ***************/
+		#container.contact #bottom{
+			width:660px;
+			margin:30px auto 0;
+		}
+
+			#container.contact #bottom .half{
+				background:url(images/bg/small-grey-box.jpg) no-repeat #e8e8e8 right bottom;
+				border:solid 1px #c2c2c2;
+				text-align:left;
+				padding:40px 30px;
+				width:260px;
+			}
+	
+			#container.contact #bottom .half p{
+				font-size:14px;
+			}
+	
+			#container.contact #bottom .half a{
+				color:#ce9f2b;
+				font-size:14px;
+			}
+	
+				#container.contact .left{
+					float:left;
+				}
+		
+				#container.contact .right{
+					float:right;
+				}
+		
+
+
+	
+	#footer{
+		color:#575858;
+		background:#171717;
+		font-size:10px;
+		padding:8px 0;
+		margin:40px auto 0;
+		text-align:center;
+		width:100%;
+		height:15px;
+	}
+
+		#footer a{color:#575858;}
+		#footer a:hover{ text-decoration:underline; color:#CCC;}
+	
+			
+/*************** MISC STYLES *****************/
+address{ font-style:normal;}
+body .ccm-add-block{color:#F5294E;}
+.grunge-bg a{color:#000; text-decoration:underline;}
+#container .ccm-button{ clear:both;}
+
+#container .login-form-container{/*login page*/
+	background:url(images/bg/grey-box-bg.jpg) no-repeat right bottom #e8e8e8;
+	padding:25px 26px;
+	width:760px;
+	margin:20px auto 50px;
+}
+	#container .login-form-container h2{ color:#000;}
+
+.back-to-top{text-align:right;}
+	.back-to-top a{color:#0578D1;}
+	.back-to-top a:hover{ text-decoration:underline;}
+
+#container .big sup{font-size:20px;}
+#container .small sup{font-size:13px;}
+#fancybox-left-ico { 
+ left: 20px; 
+} 
+
+#fancybox-right-ico { 
+ right: 20px; 
+ left: auto; 
+}
+
+#container.page-206 #main{text-transform:uppercase;}
+	#container.page-206 #main p{margin-bottom:18px;}
+.hide{
+	display:none;
+}
+
+/*************** INTRO STYLES *****************/
+.hidden { display:none; }
+
+#container.page-1 #top img{
+	margin:1px 20px 0 -100px;
+}
+
+
+/*************** TYPE STYLES *****************/
+a{text-decoration:none;color:#fff; outline:none; cursor:pointer;}
+a:hover{text-decoration:underline;color:;}
+a:active{text-decoration:underline;color:;}
+#container h1, #container h2, #container h3, #container h4{
+	margin-bottom:6px;
+	text-transform:uppercase;
+	font-family: 'QuicksandLight', sans-serif;
+	line-height: 0.9;
+}
+	.strong, .quicksand-book{
+		font-family: 'QuicksandBook', sans-serif;
+	}
+
+h1{
+}
+
+#container h2{
+	color:#fff;
+	letter-spacing:-2pt;
+}
+
+	#container h2.big, #container h2 .big{
+		font-size:50px;
+		font-weight:300;
+		margin-bottom:20px;
+	}
+		
+	#container h2.small, #container h2 .small{
+		font-size:39px;
+	}
+
+#container h3{
+	color:#ebb50f;
+	letter-spacing:-1pt;
+}
+
+	#container h3.big, #container h3 .big{
+		font-size:45px;
+	}
+		
+	#container h3.small, #container h3 .small{
+		font-family: 'QuicksandBook', sans-serif;
+		font-size:23px;
+		font-weight:300;
+	}
+
+#container h4{
+	font-size:16px;
+	font-family: 'AllerLightRegular', sans-serif;
+}
+
+h5{
+}
+
+h6{
+}
+
+#container p{
+	line-height:1.2;
+	font-size:14px;
+	font-family:'AllerRegular', sans-serif;
+}
+
+
+#container.page-253 #winner-stats{ padding-left:125px;}  /* /winners/current-monthly-winners/september-2013-peyton-manning */
